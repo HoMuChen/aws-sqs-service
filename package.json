@@ -1,18 +1,28 @@
 {
-  "name": "aws-sqs-service",
-  "version": "1.0.0",
-  "description": "",
+  "name": "sqs-service",
+  "version": "1.0.1",
+  "description": "AWS Simple Queue Service(SQS) supporting long-polling long-lived process worker consuming queue",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoMuChen/aws-sqs-service.git"
+  },
   "keywords": [
     "AWS",
-    "SQS"
+    "SQS",
+    "long-lived process",
+    "long-polling"
   ],
   "author": "HoMuChen",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.453.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/HoMuChen/aws-sqs-service/issues"
+  },
+  "homepage": "https://github.com/HoMuChen/aws-sqs-service#readme"
 }
