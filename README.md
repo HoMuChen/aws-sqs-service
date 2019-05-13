@@ -10,7 +10,7 @@ export AWS_SECRET_ACCESS_KEY=your-secret
 
 ## Install
 ```bash
-npm i -S aws-sqs-service
+npm i -S sqs-service
 ```
 
 ## Usage

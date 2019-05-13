@@ -1,6 +1,6 @@
 {
   "name": "sqs-service",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AWS Simple Queue Service(SQS) supporting long-polling long-lived process worker consuming queue",
   "main": "index.js",
   "scripts": {
